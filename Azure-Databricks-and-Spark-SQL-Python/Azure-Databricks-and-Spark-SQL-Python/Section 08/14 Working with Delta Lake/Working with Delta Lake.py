@@ -55,4 +55,4 @@ df.write.format("delta").mode("overwrite").save("/Volumes/population_metrics/lan
 # COMMAND ----------
 
 # Using the load method to read the DataFrame from Delta Lake format
-spark.read.format("delta").load("/Volumes/population_metrics/landing/datasets/output_dataset/delta/countries_population").display()
+display(spark.read.format("delta").load("/Volumes/population_metrics/landing/datasets/output_dataset/delta/countries_population"))
