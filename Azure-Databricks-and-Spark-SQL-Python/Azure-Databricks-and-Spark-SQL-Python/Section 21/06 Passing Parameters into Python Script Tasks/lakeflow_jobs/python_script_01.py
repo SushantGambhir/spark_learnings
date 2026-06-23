@@ -1,6 +1,6 @@
 import sys
 
-script_name = sys.argv[0]
+script_name = sys.argv[0] # Its reserved by default, will always give script name
 
 persons_name = sys.argv[1]
 
